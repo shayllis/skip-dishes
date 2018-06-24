@@ -16,4 +16,26 @@ $ composer install
         ```bash
         bin/cake migrations seed
         ```
+## Using it
+1. Listing restaurants
+	```
+		GET /restaurants
+	```
+2. Acessing restaurants data
+	```
+		GET /restaurants/{RESTAURANT_ID}
+	```
+3. Retrieving restaurant categories
+	```
+		GET /restaurants/{RESTAURANT_ID}/categories
+	```
+3. Listing restaurant dishes by category
+	```
+		GET /restaurants/{RESTAURANT_ID}/categories/{CATEGORY_ID}
+	```
+3. Listing restaurant dishes
+	```
+		GET /restaurants/{RESTAURANT_ID}/dishes
+	```
+
 # All the images has been taken from Google Image and should not be used
