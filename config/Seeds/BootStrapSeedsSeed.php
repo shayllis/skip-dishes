@@ -27,7 +27,9 @@ class BootStrapSeedsSeed extends AbstractSeed
 						'photo' => '/restaurants/mon-made/logo.jpg',
 						'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lobortis, neque ac rhoncus efficitur, lacus enim vestibulum augue, ac accumsan eros ligula vel ipsum. Duis pulvinar tortor nisi, vitae imperdiet quam pretium et. Integer aliquet est sed malesuada sagittis. Nullam dapibus erat vitae bibendum condimentum.',
 						'created_at' => '2018-06-24 13:00:00',
-						'updated_at' => '2018-06-24 13:00:05'
+						'updated_at' => '2018-06-24 13:00:05',
+						'lat' => -23.6132402,
+						'long' => -46.6947827,17
 					]
 				])
 				->saveData();
